@@ -1,14 +1,11 @@
-// Function to download the resume
-function downloadResume() {
-    const link = document.createElement('a');
-    link.href = '/assets/BrandonY_Resume.pdf';
-    link.download = 'BrandonY_Resume.pdf';
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+// Function to open resume in a new tab without force downloading
+function openResume() {
+    window.open('/assets/BrandonY_Resume.pdf', '_blank');
 }
 
+
 //concatenated form for images
+// try to get the full view of the image to show in the modal
 const images = [
     { src: "/assets/sti-img.png", alt: "sti-img" },
     { src: "/assets/porsche-img.png", alt: "porsche-img" },
