@@ -1,6 +1,6 @@
 // Function to open resume in a new tab without force downloading
 function openResume() {
-    window.open('/assets/BrandonY_Resume.pdf', '_blank');
+    window.open('/assets/Brandon_Yang_Resume.pdf', '_blank');
 }
 
 
