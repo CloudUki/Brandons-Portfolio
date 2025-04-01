@@ -60,6 +60,9 @@ body {
     border: none;
     text-decoration: none;
   }
+  #footer-section .email, #footer-section .linked-in, #footer-section .git-hub {
+    color: #000;
+  }
 }
 @media screen and (min-width: 1024px) {
   #navbar {
@@ -86,6 +89,9 @@ body {
     font-family: "Poppins", sans-serif;
     border: none;
     text-decoration: none;
+  }
+  #footer-section .email, #footer-section .linked-in, #footer-section .git-hub {
+    color: #000;
   }
 }
 
