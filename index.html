@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Brandon's Portfolio</title>
+    <link rel="stylesheet" href="/styles/index.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav id="navbar" class="navbar-expand-lg">
+            <div class="container-fluid">
+                <div class="d-flex justify-content-end w-100">
+                    <ul class="navbar-nav d-flex flex-row list">
+                        <li class="nav-item">
+                            <a id="photo-nav" class="nav-link" href="/html/photo.html">Photography</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>   
+    </header>    
+     
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="hero">
+            <div class="container text-center py-5">
+                <div class="row align-items-center">
+                    <div class="col-12 col-md-6">
+                        <img class="pf-pic img-fluid rounded-circle mb-4" src="/assets/pf-pic.svg" alt="Brandon's Profile Picture">
+                    </div>
+                    <div class="col-12 col-md-6 button-container">
+                        <h1 class="intro-one display-4 font-weight-bold mb-3">Hi, I am Brandon, a <br> Rising Software Engineer.</h1>
+                        <p class="intro-text lead">
+                            I am a senior at Moravian University, studying 
+                            Computer Science for my Bachelor's. I am 
+                            interested in front-end software engineering, 
+                            using my skills and knowledge to impact 
+                            the world positively.
+                        </p>
+                        <button onclick="openResume()" class="btn btn-primary btn-lg mt-4 download-btn">View Resume</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <div class="container">
+
+                <!-- Calcium+Company Project -->
+                <section id="calcium-company">
+                    <div class="row align-items-center mt-5 flex-column flex-lg-row text-start">
+                        <div class="col-12 col-lg-3 order-1 order-lg-1">
+                            <h1 class="projects-title">Projects</h1>
+                            <img class="caco-img img-fluid" src="/assets/caco_img.svg" alt="Calcium+Company Project Image">
+                        </div>
+                        <div class="col-12 col-lg-7 order-2 order-lg-2 mt-4 mt-lg-5">
+                            <h2 class="caco-title">Calcium+Company</h2>
+                            <div class="d-flex align-items-center gap-2 flex-wrap">
+                                <img class="caco-date" src="/assets/two_four.svg" alt="2024">
+                                <p class="caco-role fw-bold mb-0">Technology Intern</p>
+                            </div>                            
+                            <p class="caco-text">
+                                Built a company website using <b>JavaScript</b>, <b>HTML</b>
+                                (<b>Bootstrap</b>), <b>SCSS</b>, and <b>Figma</b>, collaborating
+                                with other departments to align functionality and
+                                design with company goals.
+                            </p>
+                            <a href="https://calciumco.com/" target="_blank" id="calcium-btn" class="btn mt-2">
+                                Visit Project
+                            </a>
+                            <a href="/html/calcium.html" target="_blank" id="calcium-view" class="btn mt-2">
+                                View More
+                            </a>
+                        </div>
+                    </div>
+                </section>
+                 
+                
+                <!-- AWS Checkers -->
+                <section id="aws-checkers">
+                    <div class="row align-items-start mt-5 flex-column flex-lg-row text-start">
+                        <div class="col-12 col-lg-3 order-1 order-lg-1">
+                            <img class="checkers-img img-fluid" src="/assets/checkers_img.svg" alt="AWS Checkers Project Image">
+                        </div>
+                        <div class="col-12 col-lg-7 order-2 order-lg-2 mt-4 mt-lg-0">
+                            <h2 class="checkers-title">AWS Checkers</h2>
+                            <div class="d-flex align-items-center gap-2 flex-wrap">
+                                <img class="checkers-date" src="/assets/two_four.svg" alt="2024">
+                                <p class="checkers-role fw-bold mb-0">Student</p>
+                            </div>                            
+                            <p class="checkers-text">
+                                Collaborated as part of a team to design and deploy a 
+                                dynamic website integrating AWS services with the front end. 
+                                Utilized skills in <b>JavaScript (React)</b>, <b>HTML5</b>, <b>CSS</b>, <b>Python (Flask)</b>, 
+                                and utilized various <b>AWS Services</b> to launch a user-friendly experience.
+                            </p>
+                            <a href="https://github.com/CloudUki/AWS-Checkers" target="_blank" id="checkers-btn" class="btn mt-2">
+                                Source Code
+                            </a>
+                            <a href="/html/checker.html" target="_blank" id="checkers-view" class="btn mt-2">
+                                View More
+                            </a>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- MU Ball -->
+                <section id="moravian-ball">
+                    <div class="row align-items-start mt-5 flex-column flex-lg-row text-start">
+                        <div class="col-12 col-lg-3 order-1 order-lg-1">
+                            <img class="mu-img img-fluid" src="/assets/mu_ball_img.jpg" alt="Moravian Women's Basketball Roster Project Image">
+                        </div>
+                        <div class="col-12 col-lg-7 order-2 order-lg-2 mt-4 mt-lg-0">
+                            <h2 class="mu-title">Moravian Women's Basketball Roster</h2>
+                            <div class="d-flex align-items-center gap-2 flex-wrap">
+                                <img class="mu-date" src="/assets/two_four.svg" alt="2024">
+                                <p class="mu-role fw-bold mb-0">Student</p>
+                            </div>                            
+                            <p class="mu-text">
+                                Worked collaboratively as part of a team to develop and deploy 
+                                a full-stack application to display basketball team information. 
+                                Leveraged expertise in <b>JavaScript</b>, <b>HTML5</b>, <b>CSS</b>, <b>MySQL</b>, <b>Java</b>, 
+                                and <b>SpringBoot</b> to engineer a smooth, responsive, and accessible user experience.
+                            </p>
+                            <a href="https://github.com/CloudUki/CS_Moravian_Bball_project" target="_blank" id="moravian-btn" class="btn mt-2">
+                                Source Code
+                            </a>
+                            <a href="/html/mu-ball.html" target="_blank" id="moravian-view" class="btn mt-2">
+                                View More
+                            </a>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Beautifully Made -->
+                <section id="beautiful-made">
+                    <div class="row align-items-start mt-5 flex-column flex-lg-row text-start">
+                        <div class="col-12 col-lg-3 order-1 order-lg-1">
+                            <img class="bm-img img-fluid" src="/assets/bm-img.svg" alt="Beautifully Made Image">
+                        </div>
+                        <div class="col-12 col-lg-7 order-2 order-lg-2 mt-4 mt-lg-0">
+                            <h2 class="bm-title">Beautifully Made</h2>
+                            <div class="d-flex align-items-center gap-2 flex-wrap">
+                                <img class="bm-date" src="/assets/two-five.svg" alt="2025">
+                                <p class="bm-role fw-bold mb-0">Student</p>
+                            </div>                            
+                            <p class="bm-text">
+                                Developed and engineered a fully functional website for a local business, 
+                                utilizing expertise in <b>JavaScript</b>, <b>HTML5(Bootstrap)</b>, <b>SCSS</b>, and <b>jQuery</b> 
+                                to enhance accessibility and optimize the user experience.
+                            </p>
+                            <a href="https://github.com/CloudUki/Beautifully-Made" target="_blank" id="bm-btn" class="btn mt-2">
+                                Source Code
+                            </a>
+                            <a href="/html/beautiful.html" target="_blank" id="bm-view" class="btn mt-2">
+                                View More
+                            </a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+
+        <!--Photography Section-->
+        <section id="photography">
+            <div class="container">
+                <div class="row justify-content-center text-center">
+                    <div class="col-12">
+                        <h1 class="photo-title">Recent Photography</h1>
+                    </div>
+                    <div class="col-12">
+                        <div class="photo-container">
+                            <img class="photo-img d-block d-lg-block" src="/assets/sti-img.png" alt="Photo Image One">
+                            <img class="photo-img d-block d-lg-block" src="/assets/porsche-img.png" alt="Photo Image Two">
+                            <img class="photo-img d-none d-lg-block" src="/assets/boston-img.png" alt="Photo Image Three">
+                            <a href="/html/photo.html" class="view-btn">View All</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <section id="footer-section">
+            <div class="container">
+                <div class="row justify-content-center text-center">
+                    <div class="col-12 d-flex align-items-center justify-content-center gap-3">
+                        <div id="contact-icons" class="d-flex align-items-center gap-3">
+                            <a class="email" href="mailto:brandon.yang1210@gmail.com">
+                                <i class="fa-solid fa-envelope fa-2x"></i>
+                            </a>
+                            <a class="linked-in" href="https://www.linkedin.com/in/brandonyyang/" target="_blank">
+                                <i class="fa-brands fa-linkedin fa-2x"></i>
+                            </a>
+                            <a class="git-hub" href="https://github.com/CloudUki" target="_blank">
+                                <i class="fa-brands fa-github fa-2x"></i>
+                            </a>
+                        </div>
+                        <p class="mb-0">&copy; 2025 Brandon Yang. <br> All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <script src="/javascript/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

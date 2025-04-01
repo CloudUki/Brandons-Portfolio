@@ -1,0 +1,21 @@
+name: Deploy Site
+
+on:
+  push:
+    branches:
+      - main  # Runs on pushes to the main branch
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages  # The branch to deploy to 
+          folder: html  # Change this to your folder name
+          clean: true  # Removes old files in gh-pages branch
