@@ -7,39 +7,18 @@ body{
 
 @media screen and (max-width: 767px) {
     /* Mobile styles */
-    .navbar {
+    #navbar {
         position: relative;
         display: block;
 
-        .nav-btn {
-            position: absolute;
-            top: 10px;
-            right: 20px;
-            color: #000;
-            font-family: $primary-font;
-            text-decoration: none;
-            border: none;
-        }
-
         .list {
             position: absolute;
-            left: 210px;
+            right: 20px;
+            gap: 15px;
             top: 1px;
-        }
+        }        
 
-        #project-nav {
-            position: absolute;
-            top: 10px;
-            right: 130px;
-            color: #000;
-            font-family: $primary-font;
-            text-decoration: none;
-        }
-        
-        #photo-nav {
-            position: absolute;
-            top: 10px;
-            right: 0px;
+        #photo-nav{
             color: #000;
             font-family: $primary-font;
             text-decoration: none;
@@ -61,77 +40,129 @@ body{
 
     #projects {
         background-color: #EDF7FA;
-        padding: auto;
 
-        .projects-title {
-            padding: 5px 0px;
+        #calcium-company {
+
+            .caco-img {
+                width: 100vw;
+            }
+
+            .projects-title {
+                padding: 5px 0px;
+                margin-top: 20px;
+            }
+    
+            .caco-text {
+                text-align: left;
+                word-break: normal;
+                white-space: normal;
+            }
+
+            #calcium-btn {
+                background-color: #000;
+                color: #fff;
+                font-family: $primary-font;
+                border: none;
+                text-decoration: none;
+            }
+
+            #calcium-view {
+                background-color: #000;
+                color: #fff;
+                font-family: $primary-font;
+                border: none;
+                text-decoration: none;
+            }
         }
 
-        .caco-img {
-            padding: 5px 0px;
+        #aws-checkers {
+
+            .checkers-img {
+                width: 100vw;
+            }
+
+            .checkers-text {
+                text-align: left;
+                word-break: normal;
+                white-space: normal;
+            }
+
+            #checkers-btn {
+                background-color: #000;
+                color: #fff;
+                font-family: $primary-font;
+                border: none;
+                text-decoration: none;
+            }
+
+            #checkers-view {
+                background-color: #000;
+                color: #fff;
+                font-family: $primary-font;
+                border: none;
+                text-decoration: none;
+            }
         }
 
-        .caco-title {
-            padding: 5px 0px;
+        #moravian-ball {
+
+            .mu-img {
+                width: 100vw;
+            }
+
+            .mu-text {
+                text-align: left;
+                word-break: normal;
+                white-space: normal;
+            }
+
+            #moravian-btn {
+                background-color: #000;
+                color: #fff;
+                font-family: $primary-font;
+                border: none;
+                text-decoration: none;
+            }
+
+            #moravian-view {
+                background-color: #000;
+                color: #fff;
+                font-family: $primary-font;
+                border: none;
+                text-decoration: none;
+            }
         }
 
-        .caco-date {
-            padding: 5px;
+        #beautiful-made {
+            
+            .bm-img {
+                width: 100vw;
+            }
+
+            .bm-text {
+                text-align: left;
+                word-break: normal;
+                white-space: normal;
+            }
+
+            #bm-btn {
+                background-color: #000;
+                color: #fff;
+                font-family: $primary-font;
+                border: none;
+                text-decoration: none;
+            }
+
+            #bm-view {
+                background-color: #000;
+                color: #fff;
+                font-family: $primary-font;
+                border: none;
+                text-decoration: none;
+            }
         }
 
-        .caco-role {
-            padding: 5px 0px;
-        }
-
-        .caco-text {
-            text-align: left;
-            word-break: normal;
-            white-space: normal;
-        }
         
-        .checkers-img {
-            padding: 5px 0px;
-        }
-
-        .checkers-title {
-            padding: 5px 0px;
-        }
-
-        .checkers-date {
-            padding: 5px;
-        }
-
-        .checkers-role {
-            padding: 5px 0px;
-        }
-
-        .checkers-text {
-            text-align: left;
-            word-break: normal;
-            white-space: normal;
-        }
-
-        .mu-img {
-            padding: 5px 0px;
-        }
-
-        .mu-title {
-            padding: 5px 0px;
-        }
-
-        .mu-date {
-            padding: 5px;
-        }
-
-        .mu-role {
-            padding: 5px 0px;
-        }
-
-        .mu-text {
-            text-align: left;
-            word-break: normal;
-            white-space: normal;
-        }
 
         .view-btn {
             background: none;
@@ -182,18 +213,25 @@ body{
         }
     }
 
+    #footer-section {
+
+        .email, .linked-in, .git-hub {
+            color: #000;
+        }
+    }
     
 }
 
 @media screen and (min-width: 1024px) {
     /* Laptop styles */
-    .navbar {
-        #project-nav, #photo-nav {
+    #navbar {
+        #photo-nav {
             right: 20px;
-            font-size: 16px;
+            font-size: 25px;
             font-family: $primary-font;
         }
     }
+
 
     #hero {
         .download-btn {
@@ -227,6 +265,132 @@ body{
                 color: #3A8CB0;
                 text-decoration: underline;
             }
+        }
+    }
+
+    #calcium-company {
+
+        .caco-img {
+            width: 100vw;
+        }
+
+        .projects-title {
+            padding: 5px 0px;
+            margin-top: 20px;
+        }
+
+        .caco-text {
+            text-align: left;
+            word-break: normal;
+            white-space: normal;
+        }
+
+        #calcium-btn {
+            background-color: #000;
+            color: #fff;
+            font-family: $primary-font;
+            border: none;
+            text-decoration: none;
+        }
+
+        #calcium-view {
+            background-color: #000;
+            color: #fff;
+            font-family: $primary-font;
+            border: none;
+            text-decoration: none;
+
+            :hover {
+                color: #fff;
+                text-decoration: none;
+            }
+        }
+    }
+
+    #aws-checkers {
+
+        .checkers-img {
+            width: 100vw;
+        }
+
+        .checkers-text {
+            text-align: left;
+            word-break: normal;
+            white-space: normal;
+        }
+
+        #checkers-btn {
+            background-color: #000;
+            color: #fff;
+            font-family: $primary-font;
+            border: none;
+            text-decoration: none;
+        }
+
+        #checkers-view {
+            background-color: #000;
+            color: #fff;
+            font-family: $primary-font;
+            border: none;
+            text-decoration: none;
+        }
+    }
+
+    #moravian-ball {
+
+        .mu-img {
+            width: 100vw;
+        }
+
+        .mu-text {
+            text-align: left;
+            word-break: normal;
+            white-space: normal;
+        }
+
+        #moravian-btn {
+            background-color: #000;
+            color: #fff;
+            font-family: $primary-font;
+            border: none;
+            text-decoration: none;
+        }
+
+        #moravian-view {
+            background-color: #000;
+            color: #fff;
+            font-family: $primary-font;
+            border: none;
+            text-decoration: none;
+        }
+    }
+
+    #beautiful-made {
+        
+        .bm-img {
+            width: 100vw;
+        }
+
+        .bm-text {
+            text-align: left;
+            word-break: normal;
+            white-space: normal;
+        }
+
+        #bm-btn {
+            background-color: #000;
+            color: #fff;
+            font-family: $primary-font;
+            border: none;
+            text-decoration: none;
+        }
+
+        #bm-view {
+            background-color: #000;
+            color: #fff;
+            font-family: $primary-font;
+            border: none;
+            text-decoration: none;
         }
     }
 
@@ -276,6 +440,13 @@ body{
 
     footer {
         font-family: $primary-font;
+    }
+
+    #footer-section {
+
+        .email, .linked-in, .git-hub {
+            color: #000;
+        }
     }
 }
 

@@ -5,36 +5,17 @@ body {
 
 @media screen and (max-width: 767px) {
   /* Mobile styles */
-  .navbar {
+  #navbar {
     position: relative;
     display: block;
   }
-  .navbar .nav-btn {
+  #navbar .list {
     position: absolute;
-    top: 10px;
     right: 20px;
-    color: #000;
-    font-family: "Poppins", sans-serif;
-    text-decoration: none;
-    border: none;
-  }
-  .navbar .list {
-    position: absolute;
-    left: 210px;
+    gap: 15px;
     top: 1px;
   }
-  .navbar #project-nav {
-    position: absolute;
-    top: 10px;
-    right: 130px;
-    color: #000;
-    font-family: "Poppins", sans-serif;
-    text-decoration: none;
-  }
-  .navbar #photo-nav {
-    position: absolute;
-    top: 10px;
-    right: 0px;
+  #navbar #photo-nav {
     color: #000;
     font-family: "Poppins", sans-serif;
     text-decoration: none;
@@ -52,61 +33,98 @@ body {
   }
   #projects {
     background-color: #EDF7FA;
-    padding: auto;
   }
-  #projects .projects-title {
+  #projects #calcium-company .caco-img {
+    width: 100vw;
+  }
+  #projects #calcium-company .projects-title {
     padding: 5px 0px;
+    margin-top: 20px;
   }
-  #projects .caco-img {
-    padding: 5px 0px;
-  }
-  #projects .caco-title {
-    padding: 5px 0px;
-  }
-  #projects .caco-date {
-    padding: 5px;
-  }
-  #projects .caco-role {
-    padding: 5px 0px;
-  }
-  #projects .caco-text {
+  #projects #calcium-company .caco-text {
     text-align: left;
     word-break: normal;
     white-space: normal;
   }
-  #projects .checkers-img {
-    padding: 5px 0px;
+  #projects #calcium-company #calcium-btn {
+    background-color: #000;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    text-decoration: none;
   }
-  #projects .checkers-title {
-    padding: 5px 0px;
+  #projects #calcium-company #calcium-view {
+    background-color: #000;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    text-decoration: none;
   }
-  #projects .checkers-date {
-    padding: 5px;
+  #projects #aws-checkers .checkers-img {
+    width: 100vw;
   }
-  #projects .checkers-role {
-    padding: 5px 0px;
-  }
-  #projects .checkers-text {
+  #projects #aws-checkers .checkers-text {
     text-align: left;
     word-break: normal;
     white-space: normal;
   }
-  #projects .mu-img {
-    padding: 5px 0px;
+  #projects #aws-checkers #checkers-btn {
+    background-color: #000;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    text-decoration: none;
   }
-  #projects .mu-title {
-    padding: 5px 0px;
+  #projects #aws-checkers #checkers-view {
+    background-color: #000;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    text-decoration: none;
   }
-  #projects .mu-date {
-    padding: 5px;
+  #projects #moravian-ball .mu-img {
+    width: 100vw;
   }
-  #projects .mu-role {
-    padding: 5px 0px;
-  }
-  #projects .mu-text {
+  #projects #moravian-ball .mu-text {
     text-align: left;
     word-break: normal;
     white-space: normal;
+  }
+  #projects #moravian-ball #moravian-btn {
+    background-color: #000;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    text-decoration: none;
+  }
+  #projects #moravian-ball #moravian-view {
+    background-color: #000;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    text-decoration: none;
+  }
+  #projects #beautiful-made .bm-img {
+    width: 100vw;
+  }
+  #projects #beautiful-made .bm-text {
+    text-align: left;
+    word-break: normal;
+    white-space: normal;
+  }
+  #projects #beautiful-made #bm-btn {
+    background-color: #000;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    text-decoration: none;
+  }
+  #projects #beautiful-made #bm-view {
+    background-color: #000;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    text-decoration: none;
   }
   #projects .view-btn {
     background: none;
@@ -149,12 +167,15 @@ body {
     color: #3A8CB0;
     text-decoration: underline;
   }
+  #footer-section .email, #footer-section .linked-in, #footer-section .git-hub {
+    color: #000;
+  }
 }
 @media screen and (min-width: 1024px) {
   /* Laptop styles */
-  .navbar #project-nav, .navbar #photo-nav {
+  #navbar #photo-nav {
     right: 20px;
-    font-size: 16px;
+    font-size: 25px;
     font-family: "Poppins", sans-serif;
   }
   #hero .download-btn {
@@ -185,6 +206,102 @@ body {
   #projects .view-btn:hover {
     color: #3A8CB0;
     text-decoration: underline;
+  }
+  #calcium-company .caco-img {
+    width: 100vw;
+  }
+  #calcium-company .projects-title {
+    padding: 5px 0px;
+    margin-top: 20px;
+  }
+  #calcium-company .caco-text {
+    text-align: left;
+    word-break: normal;
+    white-space: normal;
+  }
+  #calcium-company #calcium-btn {
+    background-color: #000;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    text-decoration: none;
+  }
+  #calcium-company #calcium-view {
+    background-color: #000;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    text-decoration: none;
+  }
+  #calcium-company #calcium-view :hover {
+    color: #fff;
+    text-decoration: none;
+  }
+  #aws-checkers .checkers-img {
+    width: 100vw;
+  }
+  #aws-checkers .checkers-text {
+    text-align: left;
+    word-break: normal;
+    white-space: normal;
+  }
+  #aws-checkers #checkers-btn {
+    background-color: #000;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    text-decoration: none;
+  }
+  #aws-checkers #checkers-view {
+    background-color: #000;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    text-decoration: none;
+  }
+  #moravian-ball .mu-img {
+    width: 100vw;
+  }
+  #moravian-ball .mu-text {
+    text-align: left;
+    word-break: normal;
+    white-space: normal;
+  }
+  #moravian-ball #moravian-btn {
+    background-color: #000;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    text-decoration: none;
+  }
+  #moravian-ball #moravian-view {
+    background-color: #000;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    text-decoration: none;
+  }
+  #beautiful-made .bm-img {
+    width: 100vw;
+  }
+  #beautiful-made .bm-text {
+    text-align: left;
+    word-break: normal;
+    white-space: normal;
+  }
+  #beautiful-made #bm-btn {
+    background-color: #000;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    text-decoration: none;
+  }
+  #beautiful-made #bm-view {
+    background-color: #000;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    text-decoration: none;
   }
   #photography {
     padding: 20px 30px;
@@ -226,6 +343,9 @@ body {
   }
   footer {
     font-family: "Poppins", sans-serif;
+  }
+  #footer-section .email, #footer-section .linked-in, #footer-section .git-hub {
+    color: #000;
   }
 }
 @media screen and (min-width: 1025px) {

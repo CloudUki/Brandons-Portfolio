@@ -4,57 +4,49 @@ body {
 }
 
 @media screen and (max-width: 767px) {
-  .navbar {
+  #navbar {
     position: relative;
     display: block;
   }
-  .navbar .nav-btn {
+  #navbar .list {
     position: absolute;
-    top: 10px;
     right: 20px;
-    color: #000;
-    font-family: "Poppins", sans-serif;
-    text-decoration: none;
-    border: none;
-  }
-  .navbar .list {
-    position: absolute;
-    left: 210px;
+    gap: 15px;
     top: 1px;
   }
-  .navbar #home-nav {
-    position: absolute;
-    top: 10px;
-    right: 130px;
-    color: #000;
-    font-family: "Poppins", sans-serif;
-    text-decoration: none;
-  }
-  .navbar #project-nav {
-    position: absolute;
-    top: 10px;
-    right: 0px;
+  #navbar #home-nav {
     color: #000;
     font-family: "Poppins", sans-serif;
     text-decoration: none;
   }
   #hero {
-    padding-top: 50px;
+    font-family: "Poppins", sans-serif;
+    margin-top: 50px;
   }
   footer {
     padding-top: 30px;
     font-family: "Poppins", sans-serif;
+  }
+  #footer-section .email, #footer-section .linked-in, #footer-section .git-hub {
+    color: #000;
   }
 }
 @media screen and (min-width: 1024px) {
-  .navbar #project-nav, .navbar #home-nav {
+  #navbar #home-nav {
     right: 20px;
-    font-size: 16px;
+    font-size: 25px;
     font-family: "Poppins", sans-serif;
+  }
+  #hero {
+    font-family: "Poppins", sans-serif;
+    margin-left: 55px;
   }
   footer {
     font-family: "Poppins", sans-serif;
     padding-top: 30px;
+  }
+  #footer-section .email, #footer-section .linked-in, #footer-section .git-hub {
+    color: #000;
   }
 }
 
