@@ -1,21 +1,21 @@
 // Function to open resume in a new tab without force downloading
 function openResume() {
-    window.open('/assets/Brandon_Yang_Resume.pdf', '_blank');
+    window.open('assets/Brandon_Yang_Resume.pdf', '_blank');
 }
 
 
 //concatenated form for images
 // try to get the full view of the image to show in the modal
 const images = [
-    { src: "/assets/sti-img.png", alt: "sti-img" },
-    { src: "/assets/porsche-img.png", alt: "porsche-img" },
-    { src: "/assets/boston-img.png", alt: "boston-img" },
-    { src: "/assets/steel-img.png", alt: "steelstacks-img" },
-    { src: "/assets/hotelb-img.png", alt: "hotel-b-img" },
-    { src: "/assets/sti-front-img.png", alt: "sti-wheel-img" },
-    { src: "/assets/sti-head-img.png", alt: "sti-headlight-img" },
-    { src: "/assets/cam-head-img.png", alt: "camaro-img" },
-    { src: "/assets/mu-img.png", alt: "moravian-uni-img" }
+    { src: "assets/sti-img.png", alt: "sti-img" },
+    { src: "assets/porsche-img.png", alt: "porsche-img" },
+    { src: "assets/boston-img.png", alt: "boston-img" },
+    { src: "assets/steel-img.png", alt: "steelstacks-img" },
+    { src: "assets/hotelb-img.png", alt: "hotel-b-img" },
+    { src: "assets/sti-front-img.png", alt: "sti-wheel-img" },
+    { src: "assets/sti-head-img.png", alt: "sti-headlight-img" },
+    { src: "assets/cam-head-img.png", alt: "camaro-img" },
+    { src: "assets/mu-img.png", alt: "moravian-uni-img" }
 ];
 
 const gallery = document.getElementById("image-gallery");
