@@ -1,0 +1,17 @@
+/* Mobile */
+@media (max-width: 600px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Laptop */
+@media (min-width: 900px) {
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
