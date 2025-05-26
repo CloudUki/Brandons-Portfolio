@@ -1,7 +1,7 @@
 import Hero from './components/Hero';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
-import Contact from './components/contact';
+import Contact from './components/Contact';
 import './App.css';
 import Experience from './components/Experience';
 
