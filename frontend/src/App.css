@@ -1,0 +1,22 @@
+/* Mobile */
+@media (max-width: 600px) {
+    .section-divider {
+        border: none;
+        height: 20px;
+        background-color: #ccc;
+        width: 100%;
+        opacity: 0.9;
+    }
+}
+
+/* Laptop */
+@media (min-width: 900px) {
+    .section-divider {
+        border: none;
+        height: 20px;
+        background-color: #ccc;
+        width: 100vw;
+        opacity: 0.9;
+    }
+}
+
