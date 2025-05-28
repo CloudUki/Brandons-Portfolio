@@ -41,10 +41,10 @@ const projects = [
   {
     id: "recipe",
     title: "Recipe App",
-    description: "Designed and developed a responsive web application for recipe search and exploration using the Spoonacular API.",
+    description: "Developed a fully responsive mobile application for recipe search and exploration to deliver real-time results.",
     image: recipe,
     date: date_two,
-    tech: ['JavaScript', 'TypeScript', 'Next.js', 'Tailwind CSS', 'GitHub'],
+    tech: ['React-Native', 'Node.js', 'Express.js', 'MongoDB', 'GitHub'],
     github: 'https://github.com/CloudUki/Recipe-App'
   },
   {

@@ -23,7 +23,7 @@ export default function Hero() {
         <img src={pfpic} alt="Brandon Yang" className="pf-img" />
         <h1 className="hero-title">Brandon Yang</h1>
       </div>
-      <h2 className="hero-subtitle">A Rising Software Engineer</h2>
+      <h2 className="hero-subtitle">A Software Engineer</h2>
       <p className="hero-desc">
         I graduated from Moravian University in May 2025, 
         studying for my Bachelors of Science in Computer Science. 
