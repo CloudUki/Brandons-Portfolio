@@ -1,6 +1,6 @@
 import '../styles/Hero.css';
 import pfpic from '../assets/pf-pic.svg';
-import resume from '../assets/Brandon_Yang_Resume.pdf';
+import resume from '../assets/Resume.pdf';
 import { motion } from 'framer-motion';
 import { track } from '@vercel/analytics';
 
