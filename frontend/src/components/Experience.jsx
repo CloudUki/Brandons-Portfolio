@@ -8,7 +8,11 @@ const experience = [
     title: 'Technology Intern · Calcium+Company',
     location: "Philadelphia, PA",
     desc: [
-        "Developed and implemented the company website using Agile Scrum methodologies and various web technologies.",
+        "Designed, built, and deployed the company website end-to-end, significantly improving engagement and interaction.",
+        "Engineered the front-end interface with a tech stack including NodeJS, JavaScript, HTML, SASS, and Figma.",
+        "Actively contributed to Agile development through Scrum methodology, in daily standups, sprint planning and retrospectives.",
+        "Regularly shared progress and blockers while contributing to technical discussions, one-on-ones and team meetings.",
+        "Developed and presented an internal plan to incorporate artificial intelligence (AI) across multiple channels within the company."
     ],
     link: 'https://calciumco.com/'
   },
@@ -18,7 +22,9 @@ const experience = [
     title: 'IT Helpdesk Technician · Moravian University',
     location: "Bethlehem, PA",
     desc: [
-        "Provided technical support to students and faculty, resolving hardware and software issues.",
+        "Managed support for Apple devices, public Mac/PC labs, and printers in a high-demand university campus setting.",
+        "Delivered prompt and effective technical support for in-classroom emergencies, ensuring minimal disruption.",
+        " Logged all user issues and service requests in ServiceNow with clarity and precision during troubleshooting."
     ],
     link: 'https://www.moravian.edu/'
   },
@@ -28,7 +34,9 @@ const experience = [
     title: 'Teacher Assistant · Moravian University',
     location: "Bethlehem, PA",
     desc: [
-        "Assisted in teaching a undergraduate course, providing support to students inside and outside the classroom to enhance understanding and project outcomes.",
+        "Supported student projects in and outside of class to enhance understanding and project outcomes.",
+        "Reviewed student code and provided actionable feedback to enhance code quality and understanding.",
+        "Clarified concepts to support student understanding and confident application."
     ],
     link: 'https://www.moravian.edu/'
   }
