@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import mirrulations from '../assets/mirrulations.jpeg';
 import calcium from '../assets/caco_img.svg';
 import portfolio from '../assets/portfolio.jpeg';
-import recipe from '../assets/recipe.jpeg';
+import photo from '../assets/SteelStacks.jpg';
 import checkers from '../assets/checkers_img.svg';
 import moravian from '../assets/mu_ball_img.jpg';
 import date_one from '../assets/two_four.svg';
@@ -17,7 +17,7 @@ const projects = [
     description: `Engineered a full-stack web app to improve search on Regulations.gov for a capstone project. Designed and implemented the web interface to improve user experience and functionality. Coordinated development tasks with Trello and GitHub, applying Agile methodologies for efficient team workflow.`,
     image: mirrulations,
     date: date_two,
-    tech: ['React.js', 'Vite.js', 'Bootstrap', 'Docker', 'Amazon Web Services (AWS)', 'Figma', 'Agile Methodologies', 'Trello', 'GitHub'],
+    tech: ['ReactJS', 'ViteJS', 'Bootstrap', 'Docker', 'Amazon Web Services (AWS)', 'Figma', 'Agile Methodologies', 'Trello', 'GitHub'],
     deployed: 'https://mirrulations.org/auth'
   },
   {
@@ -26,7 +26,7 @@ const projects = [
     description: `Developed and implemented the company website using Agile Scrum methodologies. Regularly shared progress and blockers, and engaged in technical discussions through one-on-ones and team meetings. Proposed an artificial intelligence strategy across multiple channels within the company.`,
     image: calcium,
     date: date_one,
-    tech: ['Node.js', 'HTML', 'SASS', 'JavaScript', 'Figma', 'Agile Methodologies', 'Scrum', 'Artificial Intelligence (AI)'],
+    tech: ['NodeJS', 'HTML', 'SASS', 'JavaScript', 'Figma', 'Agile Methodologies', 'Scrum', 'Artificial Intelligence (AI)'],
     deployed: 'https://calciumco.com/'
   },
   {
@@ -35,17 +35,17 @@ const projects = [
     description: `Created and deployed a responsive personal site to showcase projects and hobbies, focused on clean UI/UX design.`,
     image: portfolio,
     date: date_two,
-    tech: ['React.js', 'Vite.js', 'Vercel', 'Express.js', 'Node.js', 'CSS', 'GitHub'],
-    deployed: 'https://clouduki.github.io/Brandons-Portfolio/index.html'
+    tech: ['React.js', 'ViteJS', 'Vercel', 'ExpressJS', 'NodeJS', 'CSS', 'GitHub'],
+    deployed: 'Here!',
   },
   {
-    id: "recipe",
-    title: "Recipe App",
-    description: "Developed a fully responsive mobile application for recipe search and exploration to deliver real-time results.",
-    image: recipe,
+    id: "photography",
+    title: "Photography Portfolio",
+    description: "Developed a web application highlighting my photography and facilitating professional communication.",
+    image: photo,
     date: date_two,
-    tech: ['React-Native', 'Node.js', 'Express.js', 'MongoDB', 'GitHub'],
-    github: 'https://github.com/CloudUki/Recipe-App'
+    tech: ['React', 'ViteJS', 'NextJS', 'Supabase', 'GitHub'],
+    github: 'https://github.com/CloudUki/Photography_Portfolio'
   },
   {
     id: "checkers",
@@ -59,7 +59,7 @@ const projects = [
   {
     id: "moravian",
     title: "Moravian Women's Basketball Roster",
-    description: "Designed and developed a responsive web application for recipe search and exploration using the Spoonacular API.",
+    description: "Designed and developed a responsive web application for stat tracking and roster management for the Moravian University",
     image: moravian,
     date: date_one,
     tech: ['HTML', 'CSS', 'MySQL', 'Java', 'SpringBoot', 'Agile Methodologies', 'GitHub'],
