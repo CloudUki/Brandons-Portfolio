@@ -14,7 +14,11 @@ const projects = [
   {
     id: 'mirrulations',
     title: 'Mirrulations',
-    description: `Engineered a full-stack web app to improve search on Regulations.gov for a capstone project. Designed and implemented the web interface to improve user experience and functionality. Coordinated development tasks with Trello and GitHub, applying Agile methodologies for efficient team workflow.`,
+    description: `Engineered a full-stack web application to improve searching on Regulations.gov for a capstone project.
+                  Developed a fast, responsive, and user-friendly interface using React, Bootstrap, Docker, AWS and ViteJS.
+                  Integrated Amazon Cognito for secure user authentication and safeguard RestAPI endpoints.
+                  Coordinated development tasks with Trello applying Agile methodologies for efficient team workflow.
+                  Authored clear, well organized documentation to the project's GitHub repository.`,
     image: mirrulations,
     date: date_two,
     tech: ['ReactJS', 'ViteJS', 'Bootstrap', 'Docker', 'Amazon Web Services (AWS)', 'Figma', 'Agile Methodologies', 'Trello', 'GitHub'],
@@ -23,11 +27,11 @@ const projects = [
   {
     id: 'calcium',
     title: 'Calcium+Company',
-    description: `● Designed, built, and deployed the company website end-to-end, significantly improving engagement and interaction.
-                  ● Engineered the front-end interface with a tech stack including NodeJS, JavaScript, HTML, SASS, and Figma.
-                  ● Actively contributed to Agile development through Scrum methodology, in daily standups, sprint planning and retrospectives.
-                  ● Regularly shared progress and blockers while contributing to technical discussions, one-on-ones and team meetings.
-                  ● Developed and presented an internal plan to incorporate artificial intelligence (AI) across multiple channels within the company.`,
+    description: `Designed, built, and deployed the company website end-to-end, significantly improving engagement and interaction.
+                  Engineered the front-end interface with a tech stack including NodeJS, JavaScript, HTML, SASS, and Figma.
+                  Actively contributed to Agile development through Scrum methodology, in daily standups, sprint planning and retrospectives.
+                  Regularly shared progress and blockers while contributing to technical discussions, one-on-ones and team meetings.
+                  Developed and presented an internal plan to incorporate artificial intelligence (AI) across multiple channels within the company.`,
     image: calcium,
     date: date_one,
     tech: ['NodeJS', 'HTML', 'SASS', 'JavaScript', 'Figma', 'Agile Methodologies', 'Scrum', 'Artificial Intelligence (AI)'],
