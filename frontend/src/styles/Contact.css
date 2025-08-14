@@ -1,7 +1,7 @@
 /* Mobile */
 @media (max-width: 600px) {
   .contact_section {
-    color: #fff;
+    color: #000;
     text-align: center;
   }
 
@@ -20,14 +20,14 @@
   }
 
   .contact-links a {
-    color: #fff;
+    color: #000;
     text-decoration: none;
   }
 }
 /* Laptop */
 @media (min-width: 900px) {
   #contact_section {
-    color: #fff;
+    color: #000;
     text-align: center;
   }
 
@@ -46,7 +46,7 @@
   }
 
   .contact-links a {
-    color: #fff;
+    color: #000;
     text-decoration: none;
   }
 

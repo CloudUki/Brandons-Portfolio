@@ -8,10 +8,9 @@ import { Analytics } from '@vercel/analytics/react';
 
 function App() {
     return (
-        <div className="App">
+        <div className="App" style={{ backgroundColor: "#f8f9fa" }}>
             <Hero/>
             <Experience/>
-            <hr className="section-divider"></hr>
             <Projects/>
             <Contact />
             <Footer/>
