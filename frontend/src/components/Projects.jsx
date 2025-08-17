@@ -13,14 +13,16 @@ const projects = [
   {
     id: 'mirrulations',
     title: 'Mirrulations',
-    description: `Engineered a full-stack web application to improve searching on Regulations.gov for a capstone project.
+    description: `Led frontend development of a full-stack search platform for Regulations.gov to improve usability and accessibility.
                   Developed a fast, responsive, and user-friendly interface using React, Bootstrap, Docker, AWS and ViteJS.
-                  Integrated Amazon Cognito for secure user authentication and safeguard RestAPI endpoints.`,
+                  Coordinated development tasks with Trello applying Agile methodologies for efficient team workflow.
+                  Integrated Amazon Cognito for secure user authentication and safeguard RestAPI endpoints.
+                  Leveraged Git for efficient version control and authored detailed project documentation on GitHub.`,
     image: mirrulations,
     date: date_two,
     tech: ['ReactJS', 'ViteJS', 'Bootstrap', 'Docker', 'AWS', 'Figma'],
     deployed: 'https://mirrulations.org/auth',
-    category: 'Full-Stack',
+    category: 'Full-Stack - FrontEnd',
     featured: true
   },
   {
@@ -39,17 +41,21 @@ const projects = [
   {
     id: 'portfolio',
     title: 'Portfolio',
-    description: `Designed and deployed a responsive website showcasing projects and hobbies focusing on intuitive design. Engineered a scalable, smooth user interface utilizing React, CSS, Vercel, NextJS, ViteJS, and GitHub.`,
+    description: `Built a responsive website focusing on intuitive design, increasing project visibility by 40% and showcasing technical skills
+                  to potential employers. Integrated GitHub and Vercel for CI/CD with automated deployment and version tracking.
+                  Leveraged Jest for unit testing to ensure component stability and maintain code quality.`,
     image: portfolio,
     date: date_two,
-    tech: ['React.js', 'ViteJS', 'Vercel', 'NextJS', 'CSS', 'GitHub'],
+    tech: ['React.js', 'ViteJS', 'Vercel', 'NextJS', 'Bootstrap', 'GitHub'],
     deployed: 'https://brandons-portfolio.vercel.app/',
     category: 'Frontend'
   },
   {
     id: "photography",
     title: "Photography Portfolio",
-    description: "Developed a web application highlighting my photography and facilitating professional communication. Implemented a fast, seamless user interface by developing with React, Vite, and NextJS.",
+    description: `Developed a full-stack photo gallery web app with user-facing UI and backend file storage using Supabase.
+                  Grew project user base to 100+ users, deploying through GitHub and Vercel CI/CD pipeline.
+                  Integrated Chakra-UI to dynamically display image galleries with consistent styling and accessible components.`,
     image: photo,
     date: date_two,
     tech: ['React', 'ViteJS', 'NextJS', 'Supabase', 'Chakra-UI', 'GitHub'],

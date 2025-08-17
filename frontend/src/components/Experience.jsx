@@ -8,8 +8,8 @@ const experience = [
     title: 'Technology Intern · Calcium+Company',
     location: "Philadelphia, PA",
     desc: [
-        "Designed, built, and deployed the company website end-to-end, significantly improving engagement and interaction.",
-        "Engineered the front-end interface with a tech stack including NodeJS, JavaScript, HTML, SASS, and Figma.",
+        "Developed and deployed a modern, responsive company website, enhancing the UI for engagement, speed, and accessibility.",
+        "Improved user engagement by 50% through SEO enhancements and UI updates.",
         "Actively contributed to Agile development through Scrum methodology, in daily standups, sprint planning and retrospectives.",
         "Regularly shared progress and blockers while contributing to technical discussions, one-on-ones and team meetings.",
         "Developed and presented an internal plan to incorporate artificial intelligence (AI) across multiple channels within the company."
@@ -25,7 +25,7 @@ const experience = [
     desc: [
         "Managed support for Apple devices, public Mac/PC labs, and printers in a high-demand university campus setting.",
         "Delivered prompt and effective technical support for in-classroom emergencies, ensuring minimal disruption.",
-        " Logged all user issues and service requests in ServiceNow with clarity and precision during troubleshooting."
+        "Logged all user issues and service requests in ServiceNow with clarity and precision during troubleshooting."
     ],
     link: 'https://www.moravian.edu/',
     color: 'success'
@@ -36,9 +36,9 @@ const experience = [
     title: 'Teacher Assistant · Moravian University',
     location: "Bethlehem, PA",
     desc: [
-        "Supported student projects in and outside of class to enhance understanding and project outcomes.",
-        "Reviewed student code and provided actionable feedback to enhance code quality and understanding.",
-        "Clarified concepts to support student understanding and confident application."
+        "Supported student projects in and outside of class to enhance project outcomes and confident application.",
+        "Reviewed student code providing actionable feedback to enhance code quality and understanding.",
+        "Acted as a liaison between students and the professor using cross-functional communication."
     ],
     link: 'https://www.moravian.edu/',
     color: 'info'
