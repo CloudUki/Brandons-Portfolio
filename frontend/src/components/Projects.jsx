@@ -13,14 +13,13 @@ const projects = [
   {
     id: 'mirrulations',
     title: 'Mirrulations',
-    description: `Led frontend development of a full-stack search platform for Regulations.gov to improve usability and accessibility.
-                  Developed a fast, responsive, and user-friendly interface using React, Bootstrap, Docker, AWS and ViteJS.
-                  Coordinated development tasks with Trello applying Agile methodologies for efficient team workflow.
-                  Integrated Amazon Cognito for secure user authentication and safeguard RestAPI endpoints.
-                  Leveraged Git for efficient version control and authored detailed project documentation on GitHub.`,
+    description: `Led frontend development of a full-stack search platform for Regulations.gov improving usability and accessibility for 1K+
+                  users. Integrated Amazon Cognito to provide secure authentication, safeguarding our REST API endpoints protecting user data.
+                  Applied Agile practices by coordinating development tasks in Trello, streamlining workflow and reducing delivery time.
+                  Leveraged Git and GitHub for version control and documentation, ensuring code quality and project transparency.`,
     image: mirrulations,
     date: date_two,
-    tech: ['ReactJS', 'ViteJS', 'Bootstrap', 'Docker', 'AWS', 'Figma'],
+    tech: ['ReactJS', 'ViteJS', 'Bootstrap', 'Docker', 'AWS', 'Figma', 'GitHub', 'Scrum', 'Agile'],
     deployed: 'https://mirrulations.org/auth',
     category: 'Full-Stack - FrontEnd',
     featured: true
@@ -28,9 +27,11 @@ const projects = [
   {
     id: 'calcium',
     title: 'Calcium+Company',
-    description: `Designed, built, and deployed the company website end-to-end, significantly improving engagement and interaction.
-                  Engineered the front-end interface with a tech stack including NodeJS, JavaScript, HTML, SASS, and Figma.
-                  Actively contributed to Agile development through Scrum methodology.`,
+    description: `Developed and deployed a modern, responsive company website, enhancing the UI for engagement, speed, and accessibility.
+          Improved user engagement by 50% through SEO enhancements and UI updates.
+          Actively contributed to Agile development through Scrum methodology, in daily standups, sprint planning and retrospectives.
+          Regularly shared progress and blockers while contributing to technical discussions, one-on-ones and team meetings.
+          Developed and presented an internal plan to incorporate artificial intelligence (AI) across multiple channels within the company.`,
     image: calcium,
     date: date_one,
     tech: ['NodeJS', 'HTML', 'SASS', 'JavaScript', 'Figma', 'Scrum'],
@@ -41,24 +42,25 @@ const projects = [
   {
     id: 'portfolio',
     title: 'Portfolio',
-    description: `Built a responsive website focusing on intuitive design, increasing project visibility by 40% and showcasing technical skills
-                  to potential employers. Integrated GitHub and Vercel for CI/CD with automated deployment and version tracking.
-                  Leveraged Jest for unit testing to ensure component stability and maintain code quality.`,
+    description: `Built a responsive, intuitive website, increasing project visibility by 40%, highlighting my technical skills to employers.
+                  Integrated GitHub and Vercel for CI/CD, automating deployments and improving version tracking.
+                  Implemented Jest unit tests to validate components, ensuring stability and maintaining code quality.`,
     image: portfolio,
     date: date_two,
-    tech: ['React.js', 'ViteJS', 'Vercel', 'NextJS', 'Bootstrap', 'GitHub'],
+    tech: ['React.js', 'ViteJS', 'Vercel', 'NextJS', 'Bootstrap', 'GitHub', 'Jest', 'CI/CD'],
     deployed: 'https://brandons-portfolio.vercel.app/',
     category: 'Frontend'
   },
   {
     id: "photography",
     title: "Photography Portfolio",
-    description: `Developed a full-stack photo gallery web app with user-facing UI and backend file storage using Supabase.
-                  Grew project user base to 100+ users, deploying through GitHub and Vercel CI/CD pipeline.
-                  Integrated Chakra-UI to dynamically display image galleries with consistent styling and accessible components.`,
+    description: `Programmed a full-stack photo gallery web app with user-facing UI and Supabase backend, enabling secure file storage.
+                  Grew user base to 100+ by deploying through GitHub and Vercel CI/CD increasing project reach and accessibility.
+                  Incorporated Chakra-UI to display image galleries dynamically, ensuring consistent styling and accessible components.
+                  Adopted Redux for centralized state management, improving application scalability and maintainability.`,
     image: photo,
     date: date_two,
-    tech: ['React', 'ViteJS', 'NextJS', 'Supabase', 'Chakra-UI', 'GitHub'],
+    tech: ['React', 'ViteJS', 'NextJS', 'Supabase', 'Chakra-UI', 'GitHub', 'Vercel', 'Redux', 'CI/CD'],
     deployed: 'https://brandons-photography.vercel.app/',
     category: 'Frontend'
   },
