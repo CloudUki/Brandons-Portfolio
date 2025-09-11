@@ -8,11 +8,11 @@ const experience = [
     title: 'Technology Intern · Calcium+Company',
     location: "Philadelphia, PA",
     desc: [
-        "Developed and deployed a modern, responsive company website, enhancing the UI for engagement, speed, and accessibility.",
-        "Improved user engagement by 50% through SEO enhancements and UI updates.",
-        "Actively contributed to Agile development through Scrum methodology, in daily standups, sprint planning and retrospectives.",
-        "Regularly shared progress and blockers while contributing to technical discussions, one-on-ones and team meetings.",
-        "Developed and presented an internal plan to incorporate artificial intelligence (AI) across multiple channels within the company."
+        "Developed and deployed a responsive company website, improving load speed and accessibility compliance with WCAG standards.",
+        "Boosted user engagement by 50% by implementing SEO enhancements, UI redesign, and performance optimizations.",
+        "Improved feature delivery through active participation in Agile development, standups, sprint planning and retrospectives.",
+        "Facilitated cross-team communication by sharing progress and blockers, and leading technical discussions in one-on-ones.",
+        "Designed and presented an artificial intelligence (AI) plan across company channels, identifying 2 new opportunities for automation and customer engagement."
     ],
     link: 'https://calciumco.com/',
     color: 'primary'
