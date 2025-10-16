@@ -27,14 +27,13 @@ const projects = [
   {
     id: 'calcium',
     title: 'Calcium+Company',
-    description: `Developed and deployed a modern, responsive company website, enhancing the UI for engagement, speed, and accessibility.
-          Improved user engagement by 50% through SEO enhancements and UI updates.
-          Actively contributed to Agile development through Scrum methodology, in daily standups, sprint planning and retrospectives.
-          Regularly shared progress and blockers while contributing to technical discussions, one-on-ones and team meetings.
-          Developed and presented an internal plan to incorporate artificial intelligence (AI) across multiple channels within the company.`,
+    description: `Developed and launched a responsive website using React and TypeScript, improving UI performance and user engagement.
+                  Collaborated with designers and product managers to translate Figma wireframes into interactive, cross-browser UI components.
+                  Implemented WCAG/ADA compliant components to ensure accessibility across all major browsers and devices.
+                  Led an AI-driven automation initiative, streamlining internal workflows and improving operational efficiency.`,
     image: calcium,
     date: date_one,
-    tech: ['NodeJS', 'HTML', 'SASS', 'JavaScript', 'Figma', 'Scrum'],
+    tech: ['NodeJS', 'HTML', 'SCSS', 'JavaScript', 'TypeScript','Figma', 'Scrum'],
     deployed: 'https://calciumco.com/',
     category: 'Frontend',
     featured: true
@@ -42,9 +41,9 @@ const projects = [
   {
     id: 'portfolio',
     title: 'Portfolio',
-    description: `Built a responsive, intuitive website, increasing project visibility by 40%, highlighting my technical skills to employers.
-                  Integrated GitHub and Vercel for CI/CD, automating deployments and improving version tracking.
-                  Implemented Jest unit tests to validate components, ensuring stability and maintaining code quality.`,
+    description: `Developed a responsive, user-friendly website that increased project visibility by 40%, showcasing technical skills to potential employers.
+                  Leveraged GitHub and Vercel to automate deployment processes and maintain consistent version control through CI/CD
+                  Developed Jest-based unit tests to verify component behavior, supporting stable releases and clean code practices.`,
     image: portfolio,
     date: date_two,
     tech: ['React.js', 'ViteJS', 'Vercel', 'NextJS', 'Bootstrap', 'GitHub', 'Jest', 'CI/CD'],
@@ -54,10 +53,9 @@ const projects = [
   {
     id: "photography",
     title: "Photography Portfolio",
-    description: `Programmed a full-stack photo gallery web app with user-facing UI and Supabase backend, enabling secure file storage.
-                  Grew user base to 100+ by deploying through GitHub and Vercel CI/CD increasing project reach and accessibility.
-                  Incorporated Chakra-UI to display image galleries dynamically, ensuring consistent styling and accessible components.
-                  Adopted Redux for centralized state management, improving application scalability and maintainability.`,
+    description: `Designed and developed a full-stack photo gallery application, managing state efficiently with Redux and React hooks.
+                  Integrated Supabase backend services for real-time data handling and storage.
+                  Utilized accessible and responsive UI components with Chakra-UI to enhance usability across devices.`,
     image: photo,
     date: date_two,
     tech: ['React', 'ViteJS', 'NextJS', 'Supabase', 'Chakra-UI', 'GitHub', 'Vercel', 'Redux', 'CI/CD'],

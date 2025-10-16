@@ -8,14 +8,27 @@ const experience = [
     title: 'Technology Intern · Calcium+Company',
     location: "Philadelphia, PA",
     desc: [
-        "Developed and deployed a responsive company website, improving load speed and accessibility compliance with WCAG standards.",
-        "Boosted user engagement by 50% by implementing SEO enhancements, UI redesign, and performance optimizations.",
-        "Improved feature delivery through active participation in Agile development, standups, sprint planning and retrospectives.",
-        "Facilitated cross-team communication by sharing progress and blockers, and leading technical discussions in one-on-ones.",
-        "Designed and presented an artificial intelligence (AI) plan across company channels, identifying 2 new opportunities for automation and customer engagement."
+        "Developed and deployed a responsive company website using React and TypeScript, improving UI performance and user engagement.",
+        "Collaborated closely with designers and product managers to translate Figma wireframes into interactive, cross-browser UI components.",
+        "Implemented WCAG/ADA compliant components to ensure accessibility across all major browsers and devices.",
+        "Contributed to code reviews, debugging, and performance optimization, supporting high-quality and maintainable codebases.",
+        "Led an AI-driven automation initiative, streamlining internal workflows and improving operational efficiency.",
     ],
     link: 'https://calciumco.com/',
     color: 'primary'
+  },
+  {
+    id: 'costco',
+    date: "October 2025 - Present",
+    title: 'Major Sales Associate · Costco Wholesale',
+    location: "Lancaster, PA",
+    desc: [
+        "Provide exceptional customer service by addressing member needs and resolving issues in a timely and professional manner.",
+        "Promote and upsell featured or seasonal products to increase sales and member satisfaction.",
+        "Collaborate with team members and supervisors to meet daily sales and operational goals."
+    ],
+    link: 'https://www.costco.com/',
+    color: 'danger',
   },
   {
     id: 'helpdesk',
@@ -23,9 +36,9 @@ const experience = [
     title: 'IT Helpdesk Technician · Moravian University',
     location: "Bethlehem, PA",
     desc: [
-        "Managed support for Apple devices, public Mac/PC labs, and printers in a high-demand university campus setting.",
-        "Delivered prompt and effective technical support for in-classroom emergencies, ensuring minimal disruption.",
-        "Logged all user issues and service requests in ServiceNow with clarity and precision during troubleshooting."
+        "Support for Apple devices, public Mac/PC labs, and printers that serve a large and active university community.",
+        "Provide timely and effective technical support during classroom emergencies, minimizing instructional disruptions.",
+        "Maintained detailed logs of user issues and support tickets in Team Dynamix throughout the troubleshooting process."
     ],
     link: 'https://www.moravian.edu/',
     color: 'success'
