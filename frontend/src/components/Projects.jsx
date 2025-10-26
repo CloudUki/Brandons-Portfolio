@@ -6,6 +6,7 @@ import portfolio from '../assets/portfolio.jpeg';
 import photo from '../assets/photography.jpeg';
 import checkers from '../assets/checkers_img.svg';
 import moravian from '../assets/mu_ball_img.jpg';
+import recipe from '../assets/recipe_app.jpg';
 import date_one from '../assets/two_four.svg';
 import date_two from '../assets/two-five.svg';
 
@@ -37,6 +38,17 @@ const projects = [
     deployed: 'https://calciumco.com/',
     category: 'Frontend',
     featured: true
+  },
+  {
+    id: 'recipe',
+    title: 'Recipe App',
+    description: `Developed a responsive mobile app used by users to quickly find recipes while shopping or cooking by integrating the Spoonacular API, responsive design, and real-time search features.
+                  Leverage GitHub and Expo Go to automate deployment processes and maintain consistent version control through CI/CD
+                  Designed and prototyped user interfaces in Figma, enhancing usability and design consistency through iterative testing.`,
+    image: recipe,
+    date: date_two,
+    tech: ['React Native', 'React Native Paper', 'Expo Go', 'Figma', 'GitHub', 'Spoonacular API',  'CI/CD'],
+    category: 'Full-Stack',
   },
   {
     id: 'portfolio',
