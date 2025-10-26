@@ -6,7 +6,7 @@ import portfolio from '../assets/portfolio.jpeg';
 import photo from '../assets/photography.jpeg';
 import checkers from '../assets/checkers_img.svg';
 import moravian from '../assets/mu_ball_img.jpg';
-import recipe from '../assets/recipe_app.jpg';
+import recipe from '../assets/Recipe_app.jpg';
 import date_one from '../assets/two_four.svg';
 import date_two from '../assets/two-five.svg';
 
