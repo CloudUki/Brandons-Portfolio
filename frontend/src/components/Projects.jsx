@@ -67,7 +67,8 @@ const projects = [
     title: "Photography Portfolio",
     description: `Designed and developed a full-stack photo gallery application, managing state efficiently with Redux and React hooks.
                   Integrated Supabase backend services for real-time data handling and storage.
-                  Utilized accessible and responsive UI components with Chakra-UI to enhance usability across devices.`,
+                  Utilized accessible and responsive UI components with Chakra-UI to enhance usability across devices.
+                  Implemented an interactive chatbot to guide visitors through my portfolio and provide instant answers to common questions.`,
     image: photo,
     date: date_two,
     tech: ['React', 'ViteJS', 'NextJS', 'Supabase', 'Chakra-UI', 'GitHub', 'Vercel', 'Redux', 'CI/CD'],
