@@ -31,6 +31,20 @@ const experience = [
     color: 'danger',
   },
   {
+    id: 'capstone',
+    date: "January 2025 - May 2025",
+    title: 'FrontEnd Developer · Moravian University Capstone (Merck + Careset)',
+    location: "Bethlehem, PA",
+    desc: [
+        "Developed an interactive and responsive web application with React and AWS, improving accessibility and engagement for users interacting with large-scale data.",
+        "Deployed the web application using AWS Amplify and other cloud environments, optimizing scalability and performance.",
+        "Collaborated in Agile sprints with designers, developers, and product managers to deliver accessible and scalable solutions.",
+        "Containerized deployments with Docker, improving development consistency and accelerating release cycles."
+    ],
+    link: 'https://mirrulations.org/auth',
+    color: 'info'
+  },
+  {
     id: 'helpdesk',
     date: "September 2023 - May 2025",
     title: 'IT Helpdesk Technician · Moravian University',
