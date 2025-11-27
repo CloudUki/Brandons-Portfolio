@@ -3,6 +3,7 @@ import { useState } from 'react';
 import mirrulations from '../assets/mirrulations.jpeg';
 import calcium from '../assets/caco_img.svg';
 import portfolio from '../assets/portfolio.jpeg';
+import jason from '../assets/Jason-Portfolio.jpeg';
 import photo from '../assets/photography.jpeg';
 import checkers from '../assets/checkers_img.svg';
 import moravian from '../assets/mu_ball_img.jpg';
@@ -38,6 +39,17 @@ const projects = [
     deployed: 'https://calciumco.com/',
     category: 'Frontend',
     featured: true
+  },
+  {
+    id: 'jasons-portfolio',
+    title: 'Client Portfolio Website (Freelance)',
+    description: `Developed a web application that highlights a clients creative talents using React, TypeScript and Tailwind CSS.
+                  Leveraged GitHub and NextJS Vercel to automate deployment processes and maintain consistent version control through CI/CD.
+                  Designed and prototyped wireframes in Figma, enhancing usability and design consistency through iterative testing.`,
+    image: jason,
+    date: date_two,
+    tech: ['React', 'TypeScript', 'Tailwind CSS', 'Figma', 'GitHub', 'NextJS', 'CI/CD'],
+    category: 'Frontend'
   },
   {
     id: 'recipe',
