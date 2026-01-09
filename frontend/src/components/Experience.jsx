@@ -8,9 +8,9 @@ const experience = [
     title: 'Technology Intern · Calcium+Company',
     location: "Philadelphia, PA",
     desc: [
-        "Developed and deployed a responsive company website using React and TypeScript, improving UI performance and user engagement.",
-        "Collaborated closely with designers and product managers to translate Figma wireframes into interactive, cross-browser UI components.",
-        "Implemented WCAG/ADA compliant components to ensure accessibility across all major browsers and devices.",
+        "Developed and launched a responsive website using Bootstrap and SCSS, improving UI performance and user engagement.",
+        "Worked alongside other developers to deliver compliant, client-focused software solutions within the pharmaceutical space.Collaborated closely with designers and product managers to translate Figma wireframes into interactive, cross-browser UI components.",
+        "Collaborated closely with designers and product managers to translate Figma wireframes into interactive, cross browser UI components.",
         "Contributed to code reviews, debugging, and performance optimization, supporting high-quality and maintainable codebases.",
         "Led an AI-driven automation initiative, streamlining internal workflows and improving operational efficiency.",
     ],
@@ -18,14 +18,27 @@ const experience = [
     color: 'primary'
   },
   {
+    id: 'freelance',
+    date: "November 2025 - Present",
+    title: 'Freelance Developer',
+    location: "Lancaster, PA",
+    desc: [
+        "Built a client-facing web application using React, TypeScript, and Tailwind CSS, delivering a responsive and maintainable UI.",
+        "Implemented CI/CD deployment with GitHub and Vercel (Next.js) to automate builds, version control, and releases.",
+        "Created and iterated on Figma wireframes, improving usability and design consistency through testing and feedback."
+    ],
+    link: 'https://www.costco.com/',
+    color: 'secondary',
+  },
+  {
     id: 'costco',
     date: "October 2025 - Present",
     title: 'Major Sales Associate · Costco Wholesale',
     location: "Lancaster, PA",
     desc: [
-        "Provide exceptional customer service by addressing member needs and resolving issues in a timely and professional manner.",
-        "Promote and upsell featured or seasonal products to increase sales and member satisfaction.",
-        "Collaborate with team members and supervisors to meet daily sales and operational goals."
+        "Delivered strong professional customer service experiences by efficiently resolving member needs and issues while providing.",
+        "Contributed to daily operations by collaborating across teams and training new staff for performance readiness.",
+        "Maintained accuracy and efficiency while adapting to a fast-paced, high-volume, deadline driven environment."
     ],
     link: 'https://www.costco.com/',
     color: 'danger',
@@ -50,9 +63,9 @@ const experience = [
     title: 'IT Helpdesk Technician · Moravian University',
     location: "Bethlehem, PA",
     desc: [
-        "Support for Apple devices, public Mac/PC labs, and printers that serve a large and active university community.",
-        "Provide timely and effective technical support during classroom emergencies, minimizing instructional disruptions.",
-        "Maintained detailed logs of user issues and support tickets in Team Dynamix throughout the troubleshooting process."
+        "Resolved Apple, Windows, and printer issues for 100+ daily users, maintaining system availability on a high-traffic campus.",
+        "Reduced classroom downtime by rapidly troubleshooting time-sensitive hardware and software incidents.",
+        "Documented 100+ incidents per semester in TeamDynamix, improving issue tracking and resolution consistency."
     ],
     link: 'https://www.moravian.edu/',
     color: 'success'
@@ -68,7 +81,7 @@ const experience = [
         "Acted as a liaison between students and the professor using cross-functional communication."
     ],
     link: 'https://www.moravian.edu/',
-    color: 'info'
+    color: 'warning'
   }
 ];
 
