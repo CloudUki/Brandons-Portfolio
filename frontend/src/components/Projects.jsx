@@ -15,10 +15,11 @@ const projects = [
   {
     id: 'mirrulations',
     title: 'Mirrulations',
-    description: `Led frontend development of a full-stack search platform for Regulations.gov improving usability and accessibility for 1K+
-                  users. Integrated Amazon Cognito to provide secure authentication, safeguarding our REST API endpoints protecting user data.
-                  Applied Agile practices by coordinating development tasks in Trello, streamlining workflow and reducing delivery time.
-                  Leveraged Git and GitHub for version control and documentation, ensuring code quality and project transparency.`,
+    description: `Developed an interactive and responsive web application with React and AWS, improving accessibility and engagement for users
+                  interacting with large-scale data.
+                  Deployed the web application using AWS Amplify and other cloud environments, optimizing scalability and performance.
+                  Collaborated in Agile sprints with designers, developers, and product managers to deliver accessible and scalable solutions.
+                  Containerized deployments with Docker, improving development consistency and accelerating release cycles.`,
     image: mirrulations,
     date: date_two,
     tech: ['ReactJS', 'ViteJS', 'Bootstrap', 'Docker', 'AWS', 'Figma', 'GitHub', 'Scrum', 'Agile'],
@@ -29,9 +30,11 @@ const projects = [
   {
     id: 'calcium',
     title: 'Calcium+Company',
-    description: `Developed and launched a responsive website using React and TypeScript, improving UI performance and user engagement.
-                  Collaborated with designers and product managers to translate Figma wireframes into interactive, cross-browser UI components.
-                  Implemented WCAG/ADA compliant components to ensure accessibility across all major browsers and devices.
+    description: `Developed and launched a responsive website using Bootstrap and SCSS, improving UI performance and user engagement.
+                  Worked alongside other developers to deliver compliant, client-focused software solutions within the pharmaceutical space.
+                  Collaborated closely with designers and product managers to translate Figma wireframes into interactive, cross browser UI
+                  components.
+                  Contributed to code reviews, debugging, and performance optimization, supporting high-quality and maintainable codebases.
                   Led an AI-driven automation initiative, streamlining internal workflows and improving operational efficiency.`,
     image: calcium,
     date: date_one,
@@ -43,9 +46,9 @@ const projects = [
   {
     id: 'jasons-portfolio',
     title: 'Client Portfolio Website (Freelance)',
-    description: `Developed a web application that highlights a clients creative talents using React, TypeScript and Tailwind CSS.
-                  Leveraged GitHub and NextJS Vercel to automate deployment processes and maintain consistent version control through CI/CD.
-                  Designed and prototyped wireframes in Figma, enhancing usability and design consistency through iterative testing.`,
+    description: `Built a client-facing web application using React, TypeScript, and Tailwind CSS, delivering a responsive and maintainable UI.
+                  Implemented CI/CD deployment with GitHub and Vercel (Next.js) to automate builds, version control, and releases.
+                  Created and iterated on Figma wireframes, improving usability and design consistency through testing and feedback.`,
     image: jason,
     date: date_two,
     tech: ['React', 'TypeScript', 'Tailwind CSS', 'Figma', 'GitHub', 'NextJS', 'CI/CD'],
@@ -60,6 +63,7 @@ const projects = [
     image: recipe,
     date: date_two,
     tech: ['React Native', 'React Native Paper', 'Expo Go', 'Figma', 'GitHub', 'Spoonacular API',  'CI/CD'],
+    github: 'https://github.com/CloudUki/Recipe-App',
     category: 'Full-Stack',
   },
   {
