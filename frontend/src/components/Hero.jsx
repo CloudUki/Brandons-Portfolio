@@ -131,7 +131,7 @@ export default function Hero() {
               className="h3 text-secondary mb-4"
               variants={itemVariants}
             >
-              A Software Engineer
+              Service Experience Technician
             </motion.h2>
 
             <motion.p 
@@ -139,9 +139,12 @@ export default function Hero() {
               style={{ maxWidth: '600px' }}
               variants={itemVariants}
             >
-              I graduated from Moravian University in May 2025, 
-              studying for my Bachelors of Science in Computer Science. 
-              I am interested in front-end software engineering, 
+              I graduated from Moravian University with a Bachelor of Science
+              in Computer Science degree in May 2025.<br></br>
+              I am currently a Service Experience Technician at 
+              Armstrong World Industries, where I assist clients with 
+              software and hardware issues. <br></br>
+              I am interested in front-end software engineering,<br></br> 
               using my skills and knowledge to impact 
               the world positively.
             </motion.p>

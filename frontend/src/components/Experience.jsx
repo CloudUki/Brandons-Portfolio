@@ -2,6 +2,20 @@ import { motion } from 'framer-motion';
 import { useState } from 'react';
 
 const experience = [
+    {
+    id: 'awi',
+    date: "February 2026 - Present",
+    title: 'Service Experience Technician · Armstrong World Industries',
+    location: "Lancaster, PA",
+    desc: [
+        "Deliver Tier 1 technical support via phone, email, chat, and ticketing system within ServiceNow.",
+        "Troubleshoot and resolve hardware, software, and account-related issues in a high-volume support environment.",
+        "Manage user provisioning, password resets, and access control in Active Directory while installing and configuring desktop software, drivers, and antivirus to maintain secure, fully functional systems.",
+        "Document and track incidents to meet SLA targets, escalating complex issues to Tier 2/3 teams and maintaining high customer satisfaction through clear, timely communication.",
+    ],
+    link: 'https://www.armstrong.com/',
+    color: 'primary'
+  },
 {
     id: 'ca+co',
     date: "June 2024 - August 2024",
@@ -15,11 +29,11 @@ const experience = [
         "Led an AI-driven automation initiative, streamlining internal workflows and improving operational efficiency.",
     ],
     link: 'https://calciumco.com/',
-    color: 'primary'
+    color: 'secondary'
   },
   {
     id: 'freelance',
-    date: "November 2025 - Present",
+    date: "February 2026 - Present",
     title: 'Freelance Developer',
     location: "Lancaster, PA",
     desc: [
@@ -27,8 +41,7 @@ const experience = [
         "Implemented CI/CD deployment with GitHub and Vercel (Next.js) to automate builds, version control, and releases.",
         "Created and iterated on Figma wireframes, improving usability and design consistency through testing and feedback."
     ],
-    link: 'https://www.costco.com/',
-    color: 'secondary',
+    color: 'warning',
   },
   {
     id: 'costco',
@@ -70,19 +83,6 @@ const experience = [
     link: 'https://www.moravian.edu/',
     color: 'success'
   },
-  {
-    id: 'teacher',
-    date: "October 2024 - May 2025",
-    title: 'Teacher Assistant · Moravian University',
-    location: "Bethlehem, PA",
-    desc: [
-        "Supported student projects in and outside of class to enhance project outcomes and confident application.",
-        "Reviewed student code providing actionable feedback to enhance code quality and understanding.",
-        "Acted as a liaison between students and the professor using cross-functional communication."
-    ],
-    link: 'https://www.moravian.edu/',
-    color: 'warning'
-  }
 ];
 
 export default function Experience() {
