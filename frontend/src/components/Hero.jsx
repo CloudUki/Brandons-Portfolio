@@ -132,6 +132,7 @@ export default function Hero() {
               variants={itemVariants}
             >
               Junior Web Developer
+    
             </motion.h2>
 
             <motion.p 
