@@ -3,15 +3,31 @@ import { useState } from 'react';
 
 const experience = [
     {
+    id: 'zen',
+    date: "August 2026 - Present",
+    title: 'Junior Web Developer · Zen Agency',
+    location: "Remote",
+    desc: [
+        "Develop custom applications, integrations, and web solutions across 300+ client websites using PHP, TypeScript, Nodejs, and REST APIs.",
+        "Translate client requirements into scalable technical solutions by collaborating directly with clients and executive leadership.",
+        "Accelerate software implementation by leveraging AI assisted development tools to streamline engineering workflows.",
+        "Integrate APIs and third party services to extend application functionality and address client business needs.",
+        "Maintain application reliability by managing deployments, infrastructure, security, troubleshooting and performance optimization."
+    ],
+    link: 'https://zen.agency/',
+    color: 'secondary'
+  },
+    {
     id: 'awi',
-    date: "February 2026 - Present",
+    date: "February 2026 - August 2026",
     title: 'Service Experience Technician · Armstrong World Industries',
     location: "Lancaster, PA",
     desc: [
-        "Deliver Tier 1 technical support via phone, email, chat, and ticketing system within ServiceNow.",
-        "Troubleshoot and resolve hardware, software, and account-related issues in a high-volume support environment.",
-        "Manage user provisioning, password resets, and access control in Active Directory while installing and configuring desktop software, drivers, and antivirus to maintain secure, fully functional systems.",
-        "Document and track incidents to meet SLA targets, escalating complex issues to Tier 2/3 teams and maintaining high customer satisfaction through clear, timely communication.",
+        "Delivered Tier 1 technical support via phone, email, chat, and ticketing system within ServiceNow.",
+        "Troubleshooted and resolve hardware, software, and account-related issues in a high-volume support environment.",
+        "Managed user provisioning, password resets, and access control in Active Directory while installing and configuring desktop software, drivers, and antivirus to maintain secure, fully functional systems.",
+        "Documented and track incidents to meet SLA targets, escalating complex issues to Tier 2/3 teams and maintaining high customer satisfaction through clear, timely communication.",
+        "Engineered an AI driven solution during a company wide Hackathon to automate security compliance email workflows, reducing manual review and improving accuracy and timeliness of employee compliance."
     ],
     link: 'https://www.armstrong.com/',
     color: 'primary'
@@ -33,7 +49,7 @@ const experience = [
   },
   {
     id: 'freelance',
-    date: "February 2026 - Present",
+    date: "February 2026 - July 2026",
     title: 'Freelance Developer',
     location: "Lancaster, PA",
     desc: [
@@ -45,7 +61,7 @@ const experience = [
   },
   {
     id: 'costco',
-    date: "October 2025 - Present",
+    date: "October 2025 - February 2026",
     title: 'Major Sales Associate · Costco Wholesale',
     location: "Lancaster, PA",
     desc: [
@@ -55,33 +71,6 @@ const experience = [
     ],
     link: 'https://www.costco.com/',
     color: 'danger',
-  },
-  {
-    id: 'capstone',
-    date: "January 2025 - May 2025",
-    title: 'FrontEnd Developer · Moravian University Capstone (Merck + Careset)',
-    location: "Bethlehem, PA",
-    desc: [
-        "Developed an interactive and responsive web application with React and AWS, improving accessibility and engagement for users interacting with large-scale data.",
-        "Deployed the web application using AWS Amplify and other cloud environments, optimizing scalability and performance.",
-        "Collaborated in Agile sprints with designers, developers, and product managers to deliver accessible and scalable solutions.",
-        "Containerized deployments with Docker, improving development consistency and accelerating release cycles."
-    ],
-    link: 'https://mirrulations.org/auth',
-    color: 'info'
-  },
-  {
-    id: 'helpdesk',
-    date: "September 2023 - May 2025",
-    title: 'IT Helpdesk Technician · Moravian University',
-    location: "Bethlehem, PA",
-    desc: [
-        "Resolved Apple, Windows, and printer issues for 100+ daily users, maintaining system availability on a high-traffic campus.",
-        "Reduced classroom downtime by rapidly troubleshooting time-sensitive hardware and software incidents.",
-        "Documented 100+ incidents per semester in TeamDynamix, improving issue tracking and resolution consistency."
-    ],
-    link: 'https://www.moravian.edu/',
-    color: 'success'
   },
 ];
 
