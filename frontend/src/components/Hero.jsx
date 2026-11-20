@@ -131,6 +131,7 @@ export default function Hero() {
               className="h3 text-secondary mb-4"
               variants={itemVariants}
             >
+              Junior Web Developer
             </motion.h2>
 
             <motion.p 
