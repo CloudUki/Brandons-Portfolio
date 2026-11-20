@@ -8,10 +8,11 @@ const experience = [
     title: 'Junior Web Developer · Zen Agency',
     location: "Remote",
     desc: [
-        "Develop, customize, and maintain responsive websites and web applications using modern web technologies and best practices.",
-        "Built and optimized WooCommerce e-commerce solutions, including custom functionality, performance enhancements, and issue resolution.",
-        "Collaborated with clients, stakeholders, and leadership to gather requirements, deliver projects on schedule, and ensure high quality outcomes.",
-        "Created custom integrations and web solutions using AI-powered development workflows to improve efficiency and code quality."
+        "Develop custom applications, integrations, and web solutions across 300+ client websites using PHP, TypeScript, Nodejs, and REST APIs.",
+        "Translate client requirements into scalable technical solutions by collaborating directly with clients and executive leadership.",
+        "Accelerate software implementation by leveraging AI assisted development tools to streamline engineering workflows.",
+        "Integrate APIs and third party services to extend application functionality and address client business needs.",
+        "Maintain application reliability by managing deployments, infrastructure, security, troubleshooting and performance optimization."
     ],
     link: 'https://zen.agency/',
     color: 'secondary'
@@ -70,19 +71,6 @@ const experience = [
     ],
     link: 'https://www.costco.com/',
     color: 'danger',
-  },
-  {
-    id: 'helpdesk',
-    date: "September 2023 - May 2025",
-    title: 'IT Helpdesk Technician · Moravian University',
-    location: "Bethlehem, PA",
-    desc: [
-        "Resolved Apple, Windows, and printer issues for 100+ daily users, maintaining system availability on a high-traffic campus.",
-        "Reduced classroom downtime by rapidly troubleshooting time-sensitive hardware and software incidents.",
-        "Documented 100+ incidents per semester in TeamDynamix, improving issue tracking and resolution consistency."
-    ],
-    link: 'https://www.moravian.edu/',
-    color: 'success'
   },
 ];
 
